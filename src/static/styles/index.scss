@@ -1,0 +1,29 @@
+@import './_nullstyle.scss';
+
+
+
+/* === WRAPPER === */
+.page-wrapper{
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* === / WRAPPER === */
+
+/* === MAIN-GRID === */
+.outer{
+	padding: 0 20px;
+}
+.container{max-width: $limited;margin: 0 auto;width: 100%;
+	@media (max-width: $lg){max-width: none;}
+}
+/* === / MAIN-GRID === */
+
+/* === COMONN ===*/
+.page{
+	flex: 1 1 auto;
+	overflow: hidden;
+}
+/* === / COMONN ===*/
